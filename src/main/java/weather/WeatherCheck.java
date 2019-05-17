@@ -13,7 +13,7 @@ public class WeatherCheck
 	
 		try
 		{
-			URL url = new URL("http://api.openweathermap.org/data/2.5/group?id=6695624,7531002,3094802,3081368,7530858,3093133&units=metric&APPID=80ee1a399d66c8500b8cffa7f9846a94");
+			URL url = new URL("http://api.openweathermap.org/data/2.5/group?id=6695624,7531002,3094802,3081368,7530858,3093133&units=metric&APPID=YOURAPIKEYHERE");
 			HttpURLConnection conn = (HttpURLConnection)url.openConnection();
 			conn.setRequestMethod("GET");
 			conn.connect();
